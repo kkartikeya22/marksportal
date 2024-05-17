@@ -7,7 +7,7 @@ const markRouter = require('./routes/marks');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = 'mongodb+srv://kartikeyakatiyarkk29:k123k@K123K@cluster0.eo3py99.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = 'mongodb+srv://kartikeyakatiyarkk29:k123kK123K@cluster0.eo3py99.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 const connection = mongoose.connection;
