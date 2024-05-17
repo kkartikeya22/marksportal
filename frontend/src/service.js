@@ -1,7 +1,7 @@
 // frontend/src/service.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://marksportal.onrender.com';
 
 const addMark = async (mark) => {
     try {

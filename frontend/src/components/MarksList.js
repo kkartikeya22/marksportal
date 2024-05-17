@@ -76,7 +76,7 @@ const styles = {
     container: {
         maxWidth: '800px',
         margin: 'auto',
-        background: '#f9f9f9',
+        background: '#292929', // Darker shade
         padding: '20px',
         borderRadius: '12px',
         boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
@@ -85,7 +85,7 @@ const styles = {
     heading: {
         marginBottom: '20px',
         textAlign: 'center',
-        color: '#333',
+        color: '#fff', // White text
         fontFamily: 'Arial, sans-serif',
         fontSize: '24px',
     },
@@ -95,7 +95,7 @@ const styles = {
     studentName: {
         textAlign: 'center',
         marginBottom: '10px',
-        color: '#333',
+        color: '#fff', // White text
         fontSize: '20px',
     },
     tableContainer: {
